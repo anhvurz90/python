@@ -75,6 +75,11 @@ Level 1: Bird & Coconuts: {
 			>>> fee = 2
 			>>> total_pounds = (total_dollars - fee) * x_rate
 		}
+		1.9.ExchangeRateCalculations2: {
+			>>> total_dollars = total_pounds / x_rate - fee
+			>>> import math
+			>>> math.floor(total_dollars)
+		}
 	}
 }
 
