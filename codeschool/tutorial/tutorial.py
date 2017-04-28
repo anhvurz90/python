@@ -51,6 +51,23 @@ Level 1: Bird & Coconuts: {
 			>>> (200 - 2) * 0.65 - 100
 		}
 	}
+	2.Using Variables: {
+		1.5.Using Variables: {
+			- Swallows per coconut: 1450 / ( 60 / 3 )
+			- Swallows per apple: 128 / ( 60 / 3 )
+			- Swallows per cherry: 8 / ( 60 / 3 )
+			>>> swallow_limit = 60 / 3
+			>>> swallow_per_cherry = 8 / swallow_limit
+			- Pep 8 Style Guide recommends: swallow_limit
+			- Import Modules - Extra Functionality: {
+				import math
+				num_macaws = 4.8
+				math.ceil(num_macaws)
+				Python libraries:
+					http://go.codeschool.com/python-libraries
+			}
+		}
+	}
 }
 
 
