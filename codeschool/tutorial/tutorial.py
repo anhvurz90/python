@@ -67,6 +67,14 @@ Level 1: Bird & Coconuts: {
 					http://go.codeschool.com/python-libraries
 			}
 		}
+		1.6.Naming Variables
+		1.7.Variable Calculations
+		1.8.Exchange Rate Calculations: {
+			>>> x_rate = 0.65
+			>>> total_dollars = 200
+			>>> fee = 2
+			>>> total_pounds = (total_dollars - fee) * x_rate
+		}
 	}
 }
 
