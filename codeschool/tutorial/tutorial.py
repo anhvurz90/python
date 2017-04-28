@@ -39,6 +39,17 @@ Level 1: Bird & Coconuts: {
 				>>> 1450 / (60 / 3)
 			}
 		}
+		1.2.Happy Birthday: {
+			>>> 2017 - 1984
+		}
+		1.3.Your Age in Dog Years: {
+			>>> 33/7
+		}
+		1.4.Calculating British Money Spent: {
+			>>> 200 * 0.65
+			>>> (200 - 2) * 0.65
+			>>> (200 - 2) * 0.65 - 100
+		}
 	}
 }
 
