@@ -82,5 +82,42 @@ Level 1: Bird & Coconuts: {
 		}
 	}
 }
+Level 2: Spam & Strings: {
+	1.Introduction to Strings: { 
+		2.1.Introduction to Strings: {
+			>>> 'Hello World!'
+			>>> "SPAM83"
+			
+			>>> first_name = 'Monty'
+			>>> last_name = 'Python'
+			>>> full_name = first_name + last_name
+			>>> full_name = first_name + ' ' + last_name
+			
+			- Moving Our Code to a Script File: script.py:
+				+ print(full_name)
+				+ print(first_name, last_name)
+				
+			>>> python script.py
+			
+			- Comments: #:
+				# Describe the sketch comedy group
+				name = 'Monty Python'
+				description = 'sketch comedy group'
+				year = 1969
+				# Introduce them
+				sentence = name + ' is a ' + description + ' formed in ' + str(year) 
+				print(name, 'is a', description, 'formed in', year)
+			
+			- Dealing With Quotes in Strings:
+				famous_sketch = "Hell's Grannies"
+				
+			- Special Characters: Tab
+				# Describe Monty Python's work
+				famous_sketch1 = "\n\tHell's Grannies"
+				famous_sketch2 = "\n\tThe Dead Parrot"
+				print('Famous Work:', famous_sketch1, famous_sketch2)
+		}
+	}
+}
 
 
