@@ -151,6 +151,14 @@ Level 2: Spam & Strings: {
 				
 				print(end1, end2)
 		}
+		2.8.Slicing to Create a Substring:
+		2.9.Pythonese: {
+			word = 'Python'
+			first = word[0]
+			rest = word[1:]
+			result = rest + '-' + first + 'y'
+			print(result)
+		}
 	}
 }
 
