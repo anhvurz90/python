@@ -182,5 +182,58 @@ Level 3: Conditional Rules of Engagement: {
 				In Python, indent with 4 spaces.
 		}
 	}
+	2.More Conditionals: {
+		3.5.More Conditionals: {
+			- if num_knights < 3:
+				print('Retreat!')
+			elif num_knights >= 10:
+				print('Trojan Rabbit')
+			elif day == 'Tuesday':
+				print('Taco Night')
+			else:
+				print('Truce?')
+				
+			- if num_knights < 3 or day == 'Monday':
+				print('Retreat!')
+
+			- if num_knights >= 10 and day == 'Wednesday':
+				print('Trojan Rabbit!')
+				
+			- summary:
+				# Battle Rules
+				num_knights = 10
+				day = 'Wednesday'
+				
+				if num_knights < 3 or day == 'Monday':
+					print('Retreat!')
+				elif num_knights >= 10 and day == 'Wednesday':
+					print('Trojan Rabbit!')
+				else:
+					print('Truce?')
+			
+			- User Input - With the input() Function
+				# Ask the user to input the day of week
+				day = input('Enter the day of the week')
+				print('You entered: ', day)
+				
+				num_knights = int(input('Enter the number of knights'))
+
+			- Nested Conditionals:
+				num_knights = int(input('Enter number of knights'))
+				day = input('Enter day of the week')
+				enemy = input('Enter type of enemy')
+				
+				if enemy == 'killer bunny':
+					print('Holy Hand Grenade!')
+				else:
+					# Original battle Rules
+					if num_knights < 3 or day == 'Monday':
+						print('Retreat!')
+					if num_knights >= 10 and day == 'Wednesday':
+						print('Trojan Rabbit!')
+					else:
+						print('Truce!')
+		}
+	}
 }
 
