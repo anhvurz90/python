@@ -117,6 +117,13 @@ Level 2: Spam & Strings: {
 				famous_sketch2 = "\n\tThe Dead Parrot"
 				print('Famous Work:', famous_sketch1, famous_sketch2)
 		}
+		2.2.Print Output:
+		2.3.String Concatenation: {
+			greeting = "G'day" + ' ' + "mate"
+		}
+		2.4.Cast Number to String:
+		2.5.Getting Started With Python Strings
+		2.6.String Formatting:
 	}
 }
 
