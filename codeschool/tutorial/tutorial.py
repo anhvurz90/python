@@ -161,5 +161,26 @@ Level 2: Spam & Strings: {
 		}
 	}
 }
-
+Level 3: Conditional Rules of Engagement: {
+	1.Introduction to Conditionals: {
+		3.1.Introduction to Conditionals: {
+			Conditionals & Input
+			Extended Battle Rules
+			Comparision Operators:
+				6 comparators: <, <=, ==, >=, >, !=
+			Comparision Operator Outputs:
+			Booleans: True, Flalse
+			Conditional - if, then
+				num_knights = 2;
+				if num_knights < 3:
+					print('Retreat!')
+					print('Raise the white flag!')
+				else:
+					print('True?')
+				print('Knights of the Rould Table')
+			Rules for Whitespace in Python:
+				In Python, indent with 4 spaces.
+		}
+	}
+}
 
