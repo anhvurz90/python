@@ -236,4 +236,10 @@ Level 3: Conditional Rules of Engagement: {
 		}
 	}
 }
-
+Wrapup Video: {
+	https://www.codeschool.com/courses/flying-through-python
+	https://app.pluralsight.com/library/search
+	https://docs.python.org/3/tutorial/index.html
+	www.pythontutor.com
+	https://automatetheboringstuff.com
+}
