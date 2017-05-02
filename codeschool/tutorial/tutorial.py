@@ -125,6 +125,33 @@ Level 2: Spam & Strings: {
 		2.5.Getting Started With Python Strings
 		2.6.String Formatting:
 	}
+	2.Strings and Slices: {
+		2.7.Strings and Slices: {
+			- Strings Behind the Scenes - a List of Characters:
+				+ A string is a list of characters, and each character 
+				in this list has a position or an index
+			- String Built-in Functions:
+				+ len(): 
+					greeting = 'Hello World!'
+					print( len(greeting))
+			- Using Slices to Access Parts of a String
+				word = 'Python'
+				word[2:5] ---> 'tho'
+				word[:2] === word[0:2]
+				word[2:] === word[2:len(word)]
+			
+			- 2 division signs ~ integer division
+				word1 = 'Good'
+				half1 = len(word1) // 2
+				end1 = word1[half1:]
+				
+				word2 = 'Evening'
+				half2 = len(word2) // 2
+				end2 = word2[half2:]
+				
+				print(end1, end2)
+		}
+	}
 }
 
 
