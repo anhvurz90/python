@@ -30,5 +30,18 @@ PYTHON3:
 					print (count, "is not less than 5")
 			}
 		}
+		09.01.02.Foor loop: {
+			- Syntax: {
+				for iterating_var in sequence:
+					statements(s)
+			}
+			- The range() function: {
+				+ Example:
+					>>> range(5)
+					range(0, 5)
+					>>> list(range(5))
+					[0, 1, 2, 3, 4]
+			}
+		}
 	}
 }
