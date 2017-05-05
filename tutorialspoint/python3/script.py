@@ -42,7 +42,14 @@ for num in numbers:
 		break
 else:
 	print('The list does not contain even number')
-#--------------------------------------
+	
+#NESTED LOOP--------------------------------------
+import sys
+for i in range(1, 11):
+	for j in range(1, 11):
+		k = i*j
+		print(k, end=' ')
+	print()
 #--------------------------------------
 #--------------------------------------
 #--------------------------------------

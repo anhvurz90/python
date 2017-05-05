@@ -74,5 +74,26 @@ PYTHON3:
 					print('The list does not contain even number')
 			}
 		}
+		09.01.03.Nested loop: {
+			- Syntax: {
+				+ for iterating_var1 in sequence1:
+					for iterating_var2 in sequence2:
+						statements(s)
+					statements(s)
+					
+				+ while expression1:
+					while expression2:
+						statements(s)
+					statements(s)
+			}
+			- Example: {
+				import sys
+				for i in range(1, 11):
+					for j in range(1, 11):
+						k = i * j
+						print(k, end=' ')
+					print()
+			}
+		}
 	}
 }
