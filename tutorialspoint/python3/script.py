@@ -78,4 +78,11 @@ while (var > 0):
 		continue
 	print('Current variable value :', var)
 print('Good bye!')
-#--------------------------------------
+
+#PASS STATEMENT--------------------------------------
+for letter in 'Python':
+	if (letter == 'h'):
+		pass
+		print('This is pass block')
+	print('Current letter :', letter)
+print('Good bye!')
