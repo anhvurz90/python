@@ -50,8 +50,20 @@ for i in range(1, 11):
 		k = i*j
 		print(k, end=' ')
 	print()
+	
+#BREAK STATEMENT--------------------------------------
+for letter in 'Python':
+	if (letter == 'h'):
+		break
+	print('Current letter :', letter)
 #--------------------------------------
-#--------------------------------------
+var = 10
+while (var > 0):
+	print('Current variable value :', var)
+	var-= 1
+	if (var == 5):
+		break
+print('Good bye!')
 #--------------------------------------
 #--------------------------------------
 #--------------------------------------

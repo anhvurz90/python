@@ -96,4 +96,20 @@ PYTHON3:
 			}
 		}
 	}
+	09.02.Loop Control Statements: {
+		09.02.01.Break Statement: {
+			- for letter in 'Python':	# First Example
+				if letter == 'h':
+					break
+				print('Current Letter :', letter)
+			
+			- var = 10
+			while var > 0:
+				print('Current variable value :', var)
+				var-= 1
+				if var == 5:
+					break
+			print('Good bye!')
+		}
+	}
 }
