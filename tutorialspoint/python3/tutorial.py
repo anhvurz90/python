@@ -111,5 +111,19 @@ PYTHON3:
 					break
 			print('Good bye!')
 		}
+		09.02.02.Continue Statement: {
+			- for letter in 'Python':
+				if (letter == 'h'):
+					continue
+				print('Current letter :', letter)
+				
+			- var = 5
+			while (var > 0):
+				var -= 1
+				if (var == 3):
+					continue
+				print('Current variable value: ', var)
+			print('Good bye!')
+		}
 	}
 }

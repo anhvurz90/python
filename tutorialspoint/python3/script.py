@@ -64,6 +64,18 @@ while (var > 0):
 	if (var == 5):
 		break
 print('Good bye!')
+
+#CONTINUE STATEMENT--------------------------------------
+for letter in 'Python':
+	if (letter == 'h'):
+		continue
+	print('Current letter :', letter)
 #--------------------------------------
-#--------------------------------------
+var = 5
+while (var > 0):
+	var-= 1
+	if (var == 3):
+		continue
+	print('Current variable value :', var)
+print('Good bye!')
 #--------------------------------------
