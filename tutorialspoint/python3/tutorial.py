@@ -138,4 +138,28 @@ PYTHON3:
 				print('Good bye!')
 		}
 	}
+	09.03.Iterator and Generator: {
+		09.03.01.Iterator: {
+			- Implement 2 methods: iter() & next()
+			- String, List, Tuple can be used to create an Iterator
+			
+			- Example:
+			list = [1, 2, 3, 4]
+			it = iter(list)		# this builds an iterator object
+			print (next(it))	# prints the next available element in iterator
+			
+			for x in it:
+				print(x, end=' ')
+			print()
+				
+			or
+			
+			while True:
+				try:
+					print (next(it))
+				except StopIteration:
+					sys.exit()
+			
+		}
+	}
 }
