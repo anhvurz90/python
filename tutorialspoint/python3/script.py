@@ -123,13 +123,37 @@ while True:
 		print (next(f), end=' ')
 	except StopIteration:
 		print()
-		sys.exit()
-#--------------------------------------
-#--------------------------------------
-#--------------------------------------
-#--------------------------------------
-#--------------------------------------
-#--------------------------------------
+		#sys.exit()
+		break
+		
+#PYTHON LISTS--------------------------------------
+list1 = ['physic', 'chemistry', 1997, 2000];
+list2 = [1, 2, 3, 4, 5, 6, 7];
+list3 = ['a', 'b', 'c', 'd'];
+#ACCESS VALUES IN LISTS--------------------------------------
+print("list1[0]: ", list1[0])
+print("list2[1: 3] :", list2[1: 3]);
+#UPDATING LISTS--------------------------------------
+print("Value available at index 2 :", list1[2]);
+list1[2] = 2001;
+print("New value available at index 2 :", list1[2]);
+#DELETE LIST ELEMENTS--------------------------------------
+print(list1)
+del list1[2]
+print("After deleting value at index 2 :", list1)
+#BASIC LIST OPERATIONS--------------------------------------
+print(len([1, 2, 3]))
+print([1, 2, 3] + [4, 5, 6])
+print(['Hi!'] * 4)
+print(2 in [1, 2, 3])
+for x in [1, 2, 3]:
+	print(x, end=";")
+print()
+#INDEXING, SLICING & MATRIXES--------------------------------------
+print(list1)
+print(list1[2])
+print(list1[-2])
+print(list1[1:]);
 #--------------------------------------
 #--------------------------------------
 #--------------------------------------

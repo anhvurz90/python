@@ -186,3 +186,37 @@ PYTHON3:
 		}
 	}
 }
+12.List: {
+	12.01.Python Lists: {
+		list1 = ['physics', 'chemistry', 1997, 2000];
+		list2 = [1, 2, 3, 4, 5];
+		list3 = ["a", "b", "c", "d"];
+	}
+	12.02.Access Values in Lists: {
+		print("list1[0] :", list1[0])
+		print("list2[1: 3] :", list2[1: 3])
+	}
+	12.03.Updating Lists: {
+		print("Value available at index 2 :", list1[2])
+		list1[2] = 2001
+		print("New value available at index 2 :", list1[2])
+	}
+	12.04.Delete List Elements: {
+		print(list)
+		del list[2]
+		print("After deleting value at index 2 :", list)
+	}
+	12.05.Basic List Operations: {
+		len([1, 2, 3])		# ---> 3
+		[1, 2, 3] + [4, 5, 6]	# ---> [1, 2, 3, 4, 5, 6]
+		['Hi'] * 4		# ---> ['Hi', 'Hi', 'Hi', 'Hi']
+		3 in [1, 2, 3]		# ---> True
+		for x in [1, 2, 3]	# ---> Iteration		
+	}
+	12.06.Indexing, Slicing and Matrixes: {
+		l = ["C++", "Java", "Python"]
+		l[2] 	# ---> "Python"
+		l[-2]	# ---> "Java"
+		l[1:]	# ---> ["Java", "Python"]
+	}
+}
